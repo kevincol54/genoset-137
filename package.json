@@ -1,0 +1,41 @@
+{
+  "name": "genoset-137",
+  "version": "1.0.0",
+  "description": "The 3.7% or so of all individuals who are both rs965513(A;A) and rs944289(T;T) are reported to be at ~5.7x increased risk for thyroid cancer compared to noncarriers",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tap ./tests/*.js | tap-spec",
+    "lint": "standard *.js tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevincol54/genoset-137"
+  },
+  "keywords": [
+    "genome",
+    "genoset",
+    "genes",
+    "dna",
+    "gs137",
+    "genoset-137",
+    "thyroid cancer",
+    "cancer",
+    "increased risk"
+  ],
+  "author": "Kevin Collins <kevincol54@gmail.com> (https://github.com/kevincol54)",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^5.4.1",
+    "tap": "^5.0.1",
+    "tap-spec": "^4.1.1"
+  },
+  "dependencies": {
+    "gql": "^1.1.0"
+  },
+  "engines": {
+    "node": "4.2.4"
+  }
+}
